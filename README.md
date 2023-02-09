@@ -71,9 +71,6 @@ Go ahead and continue to play around with different tickets, using different sce
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 That concludes the series of tutorials in osTicket. We have officially built a ticketing system from scratch, all the way from preinstallation configurations, all the way to being able to triage and solve issues within the system. I hope you enjoyed, and go ahead and check the rest of this GitHub for more!
 </p>
 <br />
