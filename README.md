@@ -6,10 +6,6 @@
 This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to create, work, and resolves tickets within osTicket](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -33,7 +29,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Picking up where we left off. We successfully configured the ticketing system in the last tutorial. This time we'll be staring off from the End User's POV. Navigate to the webpage in osTicket that allows you to submit tickets. Here's the URL, just in case: http://localhost/osTicket/open.php. 
 </p>
 <br />
 
@@ -41,7 +37,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+All types of tickets can be submitted through here. Let's say that Ken notices that the mobile app for the business is down. Submit a ticket as Ken. I'm only submitting one for the purposes of this tutorial, but you can submit as many as you like and practice triaging and resolving issues. 
 </p>
 <br />
 
@@ -49,6 +45,35 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now navigate to log in as the admin account you created, and make sure that your agents have the proper permissions to view the ticket(s) we submitted. Log in as an agent that has the ability to see and work the ticket. Explore the ticket to see your different options as a Queue Manager. Take note that you can reassign, respond in an email, change SLA, etc. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+From this screen, we'll post a reply. Write a reply as if you're triaging. Notice that you can choose to keep the ticket open, resolve it, or close it.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+From here, we can see that there is a thread that's developing. Now let's say the issue was solved so we want to close it. Post another reply, but this time select resolved. The ticket will automatically close and you can see it in the "Closed Tickets" section under "Today".
+</p>
+<br />
+
+<p>
+Go ahead and continue to play around with different tickets, using different scenarios.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+That concludes the series of tutorials in osTicket. We have officially built a ticketing system from scratch, all the way from preinstallation configurations, all the way to being able to triage and solve issues within the system. I hope you enjoyed, and go ahead and check the rest of this GitHub for more!
 </p>
 <br />
