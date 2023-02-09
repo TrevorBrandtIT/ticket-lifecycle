@@ -26,7 +26,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 <h2>Lifecycle Stages</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/oJ437v4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Picking up where we left off. We successfully configured the ticketing system in the last tutorial. This time we'll be staring off from the End User's POV. Navigate to the webpage in osTicket that allows you to submit tickets. Here's the URL, just in case: http://localhost/osTicket/open.php. 
@@ -34,7 +34,7 @@ Picking up where we left off. We successfully configured the ticketing system in
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/fdxlL7o.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 All types of tickets can be submitted through here. Let's say that Ken notices that the mobile app for the business is down. Submit a ticket as Ken. I'm only submitting one for the purposes of this tutorial, but you can submit as many as you like and practice triaging and resolving issues. 
@@ -42,7 +42,7 @@ All types of tickets can be submitted through here. Let's say that Ken notices t
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/5DMhhX9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Now navigate to log in as the admin account you created, and make sure that your agents have the proper permissions to view the ticket(s) we submitted. Log in as an agent that has the ability to see and work the ticket. Explore the ticket to see your different options as a Queue Manager. Take note that you can reassign, respond in an email, change SLA, etc. 
@@ -50,7 +50,7 @@ Now navigate to log in as the admin account you created, and make sure that your
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/9kWyDyI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 From this screen, we'll post a reply. Write a reply as if you're triaging. Notice that you can choose to keep the ticket open, resolve it, or close it.
@@ -58,7 +58,7 @@ From this screen, we'll post a reply. Write a reply as if you're triaging. Notic
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/DZT0WDf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 From here, we can see that there is a thread that's developing. Now let's say the issue was solved so we want to close it. Post another reply, but this time select resolved. The ticket will automatically close and you can see it in the "Closed Tickets" section under "Today".
